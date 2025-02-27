@@ -1,0 +1,120 @@
+.contact {
+  height: 100vh;
+  width: 100%;
+  background-image: url(/src/assets//student2.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact h1 {
+  font-size: 100px;
+  color: white;
+}
+
+.contactbox {
+  height: 300px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.contactbox1 {
+  height: 250px;
+  width: 250px;
+  border: 2px solid gray;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  text-align: center;
+
+
+}
+
+.icon {
+  height: 50px;
+  width: 50px;
+  background-color: #003a63;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 40px;
+
+}
+
+.contactbox1 h3 {
+  margin-top: 20px;
+}
+
+.contactbox1 p {
+  margin-top: 20px;
+}
+
+.form {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactleft {
+  height: 100vh;
+  width: 50%;
+}
+
+.contactright {
+  height: 100vh;
+  width: 30%;
+}
+
+.contactleft img {
+  height: 600px;
+  width: 600px;
+
+}
+
+.contactright h1 {
+  color: #003a63;
+  font-size: 40px;
+  margin-left: 20px;
+}
+
+.contactright p {
+  color: gray;
+  margin-left: 20px;
+}
+
+.contactright input {
+  height: 50px;
+  width: 300px;
+  margin-top: 20px;
+  margin-left: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid rgb(174, 168, 168);
+}
+
+.contactright textarea {
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 10px;
+  border: 1px soli rgb(174, 168, 168);
+}
+
+.contactright button {
+  height: 50px;
+  width: 300px;
+  background-color: rgb(259, 149, 0);
+  color: white;
+  font-size: 15px;
+  border: none;
+  margin-top: 20px;
+  margin-left: 20px;
+  border-radius: 20px;
+}

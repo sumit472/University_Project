@@ -1,0 +1,153 @@
+.about {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+.aboutFirst {
+  width: 50%;
+  height: 100vh;
+  /* background-color: green; */
+  display: flex;
+  padding-right: 20px;
+}
+
+.aboutSecond {
+  width: 50%;
+  height: 100vh;
+  /* background-color: rgb(243, 243, 189); */
+  padding-left: 30px;
+}
+
+.left {
+  height: 100vh;
+  width: 180px;
+  /* background-color: pink; */
+  margin-left: 30px;
+  margin: 100px;
+}
+
+.leftBox {
+  height: 400px;
+  width: 250px;
+
+  background-image: url("src/assets/img1.avif");
+  background-size: cover;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 0px;
+
+}
+
+.leftButton {
+  height: 100px;
+  width: 270px;
+  background-color: rgb(255, 166, 0);
+  margin-top: 30px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 50px;
+  display: flex;
+  align-items: center;
+
+}
+
+.brainstorming {
+  background-image: url("src/assets/brainstorming.png");
+  background-size: cover;
+  object-fit: cover;
+  height: 90px;
+  width: 100px;
+  margin-left: 5px;
+  background-color: white;
+  border-radius: 50%;
+
+}
+
+.text p {
+  margin-left: 15px;
+  font-size: 18px;
+
+}
+
+.rightImage {
+  border: 2px dotted orange;
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  margin-top: 50px;
+  padding: 15px;
+}
+
+.img {
+  background-color: rgb(31, 32, 28);
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background-image: url(src/assets/img2.avif);
+  background-size: cover;
+
+}
+
+.rightBox {
+  width: 250px;
+  height: 300px;
+  background-color: rgb(226, 43, 43);
+  margin-top: 10px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  background-image: url(src/assets/img3.avif);
+  background-size: cover;
+}
+
+.aboutSection {
+  margin-top: 100px;
+  height: 100vh;
+
+
+}
+
+.book1 {
+  display: flex;
+  color: orange;
+  font-size: 20px;
+}
+
+.achieves {
+  color: orange;
+}
+
+.aboutSection h1 {
+  font-size: 50px;
+}
+
+.aboutSection p {
+  opacity: 0.75;
+  font-size: 20px;
+}
+
+.services {
+  height: 70px;
+  /* background-color: green; */
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+
+
+}
+
+.servicesImg {
+  height: 60px;
+  width: 60px;
+  background-image: url(src/assets/service1.jpg);
+  background-size: cover;
+}
+
+.para1 {
+  opacity: 0.75;
+  font-size: px;
+}

@@ -1,0 +1,19 @@
+.footer {
+  height: 350px;
+  width: 100%;
+  background-color: #003a63;
+  margin-top: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.footer i {
+  font-size: 50px;
+  color: white;
+}
+
+.footer i:hover {
+  color: rgb(259, 149, 0);
+}

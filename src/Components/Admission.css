@@ -1,0 +1,13 @@
+.admission {
+  height: 100vh;
+  width: 100%;
+  background-image: url(src/assets/student1.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.admission h1 {
+  font-size: 100px;
+  color: white;
+}
